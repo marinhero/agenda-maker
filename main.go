@@ -12,8 +12,6 @@ import (
 	"time"
 )
 
-var header = "\t\t\tRepresentations Board Meeting"
-
 type AgendaItem struct {
 	Author     string
 	Title      string
@@ -32,6 +30,7 @@ type AgendaItem struct {
 }
 
 var circulationAffirmation = "yes"
+var header = "\t\t\tRepresentations Board Meeting"
 var documentTitle = "\t\t\t\tRepresentations Board Meeting\n"
 var datePlaceholder = "\t\t\t\t\t- FILL IN DATE -\n\n\n\n"
 var readForMeetingPlaceholder = "Read for Meeting\n\n"
