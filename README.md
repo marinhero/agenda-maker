@@ -8,11 +8,16 @@ row is "yes" then the row will be added to this section and removed from the pre
 
 # Usage
 
-- Download the latest release
-- Open a new Terminal
-- Navigate to the folder where you downloaded the release
+- Download the latest release.
+- Open a new Terminal.
+- Navigate to the folder where you downloaded the release.
 - Place the CSV file that you want to use to generate the report in the same directory as the downloaded release.
 - Run the binary by typing:
 `./agenda-maker --file=NAMEOFTHEFILE.CSV`
-Example:
+
+    - Example:
 `./agenda-maker --file=reports.csv`
+
+- Open the generated Agenda file in Word.
+- Select Unicode(UTF8) as encoding if prompted.
+- Edit with desired style and save as docx.
